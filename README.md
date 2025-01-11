@@ -107,14 +107,6 @@ python CalculateStatistics.py
 
 This will generate an Excel file named variant_analysis.xlsx, which contains a detailed statistical summary.
 
-## **Repository Structure**
-├── input/                   # Input folder containing `.fastq.gz` files
-├── reference/               # Reference folder containing `.fasta` file
-├── Task2_NGS_script_Krithika.py  # Main script for NGS analysis
-├── CalculateStatistics.py   # Script for generating statistical summaries
-└── output/                  # Output folder containing analysis results
-
-
 ## **How to Run**
 
 **Set up your files:**
