@@ -1,10 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import sys
 import seaborn as sns
 
 # Load the dataset
-file_path = 'PupilBioTest_PMP_revA.csv'  
+file_path = 'PupilBioTest_PMP_revA.csv' #please update the path depending on the file location
+
 data = pd.read_csv(file_path,sep=",")
 num_samples = data['Sample_ID'].nunique()
 print(f"Number of Samples: {num_samples}")

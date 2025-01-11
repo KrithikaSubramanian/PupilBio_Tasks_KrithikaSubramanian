@@ -3,7 +3,7 @@ from scipy.stats import chi2_contingency, fisher_exact
 import matplotlib.pyplot as plt
 import sys
 
-file_path = 'PupilBioTest_PMP_revA.csv'  
+file_path = 'PupilBioTest_PMP_revA.csv'  #please update the path depending on the file location
 data = pd.read_csv(file_path,sep=",")
 methylation_columns =['`000', '`001', '`010', '`011', '`100', '`101', '`110', '`111']
 data['Total_Reads'] = data[methylation_columns].sum(axis=1)
